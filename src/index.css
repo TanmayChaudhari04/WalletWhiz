@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --theme: #2970ff;
+    --shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+  }
+  
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.main-page{
+  font-family: "Space Grotesk", sans-serif;
+}
+  
+input {
+    font-family: "Montserrat", sans-serif;
+  }
+
+.maintext {
+    font-family: "Montserrat", sans-serif;
+}
