@@ -1,8 +1,13 @@
-# React + Vite
+# Wallet Whiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wallet Whiz is a personal finance tracker that enables users to log in with their Google account and manage their finances securely. Users will gain better control over their financial decisions by visualizing their spending habits through categorized charts, tracking income over time with a dynamic line chart, and reviewing all transactions in a detailed table.
 
-Currently, two official plugins are available:
+Key Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Secure Authentication: Log in using your Google account for a seamless and secure experience.
+Firebase Integration: All your data is securely stored and managed using Firebase.
+Spending Charts: Visualize your expenditures across different categories.
+Income Tracking: Monitor your income with a dynamic line chart.
+Transaction Table: Access a comprehensive table of all your transactions.
+
+Built with Vite + React, Firebase, and Tailwind CSS, this app provides a modern and efficient user experience.
