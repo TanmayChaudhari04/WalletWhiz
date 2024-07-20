@@ -1,12 +1,5 @@
 {
-    "builds": [
-      { "src": "build", "use": "@vercel/node" }
-    ],
-    "engines": {
-      "node": "20.x",
-      "javacript": "3.2.1"
-    },
-    "env": {
-      "NODE_OPTIONS": "--openssl-legacy-provider"
-    }
-}
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
