@@ -1,12 +1,12 @@
 {
-    "version":2,
     "builds": [
-      { "src": "*.jsx", "use": "@vercel/node" }
+      { "src": "build", "use": "@vercel/node" }
     ],
-    "routes": [
-        {
-          "src": "/(.*)",
-          "dest": "/"
-        }
-    ]
-  }
+    "engines": {
+      "node": "20.x",
+      "javacript": "3.2.1"
+    },
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    }
+}
