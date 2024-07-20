@@ -10,13 +10,14 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDywBge6ruf8UC5ZVOAySieRhOamNu9B_8",
-  authDomain: "wallet-whiz-348b8.firebaseapp.com",
-  projectId: "wallet-whiz-348b8",
-  storageBucket: "wallet-whiz-348b8.appspot.com",
-  messagingSenderId: "7106416223",
-  appId: "1:7106416223:web:9ccaa6075616decaf095ea",
-  measurementId: "G-RBPQQG6H8Y"
+  // apiKey: "AIzaSyDywBge6ruf8UC5ZVOAySieRhOamNu9B_8",
+  apiKey: import.meta.env.VITE_APP_API_KEY,
+  authDomain: import.meta.env.VITE_APP_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_APP_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_APP_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_APP_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_APP_ID,
+  measurementId: import.meta.env.VITE_APP_MEASUREMENT_ID
 };
 
 // Initialize Firebase
