@@ -1,5 +1,7 @@
 # Wallet Whiz
 
+<img width="1440" alt="Finance Tracker" src="https://github.com/user-attachments/assets/e9b9ed0d-656d-488c-aac7-f9716e888fa0">
+
 Wallet Whiz is a personal finance tracker that enables users to log in with their Google account and manage their finances securely. Users will gain better control over their financial decisions by visualizing their spending habits through categorized charts, tracking income over time with a dynamic line chart, and reviewing all transactions in a detailed table.
 
 Key Features:
